@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="layout.com.anew.easyItalian">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalInfo"
+            android:label="personal_info" />
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name=".recite.WordDetailsActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".WordList.WordsListsPage"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".recite.ReciteWordAcitivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".recite.FinishedPage"
+            android:label="@string/title_activity_finished" />
+        <activity android:name=".read.ReadActivity" />
+        <activity android:name=".read.ArticlePageActivity" />
+        <activity android:name=".SearchWordPage" />
+        <activity android:name=".recite.SetWordList" />
+        <activity android:name=".WordList.WordListDetailPage" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.cameraalbumtest.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".SearchView"
+            android:theme="@style/translucent" />
+        <activity android:name=".AboutPage"
+            android:theme="@style/AppTheme.MaterialAboutActivity"/>
+    </application>
+
+</manifest>

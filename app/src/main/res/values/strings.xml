@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">EasyItalian</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="example_id">  Laura</string>
+    <string name="button_learn">背单词</string>
+    <string name="button_read">读美文</string>
+    <string name="des_search_new_word">Search New Word</string>
+    <string name="new_word_list">生词本</string>
+    <string name="already_finished">已经掌握</string>
+    <string name="coming_word">尚未学习</string>
+    <string name="about">关于</string>
+    <string name="articles"> &#160;&#160;&#160;文章</string>
+    <string name="recite_words_title"> &#160;&#160;&#160;背单词</string>
+    <string name="title_read">&#160;&#160;&#160;读美文</string>
+    <string name="grasp_it">已记住</string>
+    <string name="tell_me">不认识</string>
+    <string name="continue_to_learn">继续学习</string>
+    <string name="setting">设置</string>
+    <string name="setting_title">&#160;&#160;&#160;设置</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="congratulations">恭喜你已完学习！</string>
+    <string name="wordlist">&#160;&#160;&#160;词库</string>
+    <string name="words">&#160;&#160;&#160;单词列表</string>
+    <string name="add_to_collection">加入生词本</string>
+    <string name="titile_back">&#160;&#160;&#160;返回</string>
+    <string name="title_personal_info">&#160;&#160;&#160;个人设置</string>
+    <!-- Strings related to login -->
+    <string name="username">用户名</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_password_again">再输入一次密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_up">&#160;&#160;注册&#160;&#160;</string>
+    <string name="title_coming_word">&#160;&#160;&#160;尚未学习单词</string>
+    <string name="title_already_finished">&#160;&#160;&#160;已掌握单词</string>
+    <string name="title_new_word_list">&#160;&#160;&#160;生词本</string>
+    <string name="error_invalid_email">邮箱无效！</string>
+    <string name="error_invalid_password">密码不应少于６位！</string>
+    <string name="error_incorrect_password">密码错误！</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_finished">Finished</string>
+    <string name="profile_str">设置头像</string>
+    <string name="nickName_str">设置昵称</string>
+    <string name="wordList_str">选择词库</string>
+    <string name="select_pic_resource">选择获取图片方式</string>
+    <string name="takePic_str">拍照</string>
+    <string name="fromAlbum_str">相册</string>
+    <string name="error_permission">相机无法启动，请先开启相机权限</string>
+    <string name="error_readStorage">无法读取内部存储</string>
+    <string name="input_nickname">请输入昵称</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="download">下载</string>
+    <string name="set">设置</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="set_successfully">设置成功</string>
+    <string name="ask_for_recite">是否进入学习?</string>
+    <string name="progress_dialog">正在下载&#8230;</string>
+    <string name="please_wait">请稍候</string>
+    <string name="progress_dialog_setting">正在设置</string>
+    <string name="progress_dialog_acquiring">正在加载</string>
+    <string name="logout">退出登录</string>
+    <string name="str_nulllist">该列表为空</string>
+    <string name="finished">学习结束!</string>
+    <string name="finished_str">学习结束,是否开始新的词书？</string>
+
+</resources>

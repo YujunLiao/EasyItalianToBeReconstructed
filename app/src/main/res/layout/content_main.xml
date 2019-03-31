@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="layout.com.anew.easyItalian.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <Button
+        android:id="@+id/buttonForLearn"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:background="#778899"
+        android:text="@string/button_learn"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:textColor="#F8F8FF"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonForRead"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:background="#778899"
+        android:text="@string/button_read"
+        android:textSize="28sp"
+        android:textColor="#F8F8FF"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonForLearn" />
+
+    <ImageView
+        android:id="@+id/searchWordButton"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/des_search_new_word"
+        android:theme="@style/Base.Theme.AppCompat.Light.Dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_search_black"
+        android:tint="#FFFFFF"/>
+
+
+</android.support.constraint.ConstraintLayout>

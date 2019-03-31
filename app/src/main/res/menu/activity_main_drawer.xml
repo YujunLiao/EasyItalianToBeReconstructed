@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_word"
+            android:icon="@drawable/ic_words_new"
+            android:title="@string/new_word_list" />
+        <item
+            android:id="@+id/nav_finished_word"
+            android:icon="@drawable/ic_words_finished"
+            android:title="@string/already_finished" />
+        <item
+            android:id="@+id/nav_coming_word"
+            android:icon="@drawable/ic_unfinished"
+            android:title="@string/coming_word" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about" />
+    </group>
+
+</menu>

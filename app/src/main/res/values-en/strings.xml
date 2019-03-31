@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">EasyItalian</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="example_id">  Laura</string>
+    <string name="button_learn">ReciteIt!</string>
+    <string name="button_read">ReadIt!</string>
+    <string name="des_search_new_word">Search New Word</string>
+    <string name="new_word_list">WordsCollection</string>
+    <string name="already_finished">GraspedWords</string>
+    <string name="coming_word">NewWords</string>
+    <string name="about">AboutUs</string>
+    <string name="articles"> &#160;&#160;&#160;Articles</string>
+    <string name="recite_words_title"> &#160;&#160;&#160;ReciteIt!</string>
+    <string name="title_read">&#160;&#160;&#160;ReadIt!</string>
+    <string name="grasp_it">PassIt</string>
+    <string name="tell_me">TellMe</string>
+    <string name="continue_to_learn">Continue To Learn</string>
+    <string name="setting">Settings</string>
+    <string name="setting_title">&#160;&#160;&#160;Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Sign Up</string>
+    <string name="congratulations">Congratulations!You finished it!</string>
+    <string name="wordlist">&#160;&#160;&#160;WordList</string>
+    <string name="words">&#160;&#160;&#160;Words</string>
+    <string name="add_to_collection">Add to collection</string>
+    <string name="titile_back">&#160;&#160;&#160;Back</string>
+    <string name="title_personal_info">&#160;&#160;&#160;Personal Settings</string>
+    <!-- Strings related to login -->
+    <string name="username">Username</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_password_again">password one more time</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">&#160;&#160;Sign Up&#160;&#160;</string>
+    <string name="title_coming_word">&#160;&#160;&#160;NewWords</string>
+    <string name="title_already_finished">&#160;&#160;&#160;GraspedWords</string>
+    <string name="title_new_word_list">&#160;&#160;&#160;WordsCollection</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_finished">Finished</string>
+    <string name="profile_str">Set Profile Picture</string>
+    <string name="nickName_str">Set Nickname</string>
+    <string name="wordList_str">Set Word List</string>
+    <string name="select_pic_resource">Select from&#8230;</string>
+    <string name="takePic_str">Take a photo</string>
+    <string name="fromAlbum_str">Album</string>
+    <string name="error_permission">please give the app camera permission</string>
+    <string name="error_readStorage">please give the app storage permission</string>
+    <string name="input_nickname">Please input your nickname</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="download">Download</string>
+    <string name="set">Set</string>
+    <string name="yes">Yes</string>
+    <string name="no">Not now</string>
+    <string name="set_successfully">Set successfully!</string>
+    <string name="ask_for_recite">Start to learn?</string>
+    <string name="progress_dialog">Downloading&#8230;</string>
+    <string name="please_wait">Please wait</string>
+    <string name="progress_dialog_setting">Setting&#8230;</string>
+    <string name="progress_dialog_acquiring">Loading&#8230;</string>
+    <string name="logout">Log Out</string>
+    <string name="str_nulllist">Null list</string>
+    <string name="finished">You finish it!</string>
+    <string name="finished_str">All done, start a new one?</string>
+
+
+</resources>
